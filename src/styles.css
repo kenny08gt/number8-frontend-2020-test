@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~angular-calendar/css/angular-calendar.css";
+
+body {
+  padding: 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-spinner {
+  margin: 0 auto;
+}
+
+.mat-stroked-button {
+  margin-left: 10px !important;
+}
+
+
+
+.in-range {
+  background: #c6dd95 !important;
+  cursor: default;
+}
+.weekend {
+  background: #fefd09 !important;
+  color: #000 !important;
+}
+.active {
+  background: #c6dd95 !important;
+  color: #000 !important;
+}
+.disabled {
+  background: #cdcdcd !important;
+  color: #cdcdcd !important;
+}
+.holiday {
+  background: #f87f16 !important;
+  color: #000 !important;
+  cursor: pointer;
+  position: relative;
+}
+.holiday:hover {
+  background: #dc6a07 !important;
+  color: #fff !important;
+}
+.start-date:hover {
+  cursor: default;
+}
+.off {
+  background: #fff !important;
+  color: #eee !important;
+}
+.calendar table tr {
+  position: relative !important;
+}
+.calendar .tooltip {
+  position: absolute !important;
+  z-index: 100;
+}
+
+.fa-question-circle {
+  font-size: 15px;
+    position: absolute;
+    right: -5px;
+    top: -6px;
+    background: #ffffff;
+    border-radius: 100%;
+}
+
+.holiday:hover .fa-question-circle {
+  display: none;
+}
